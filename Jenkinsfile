@@ -32,6 +32,7 @@ pipeline {
             steps {
                 echo 'Deploying on prod...'
                 echo "this is to trigger the webhook"
+                echo "this is to trigger the webhook 2"
             }
         }
         stage('Run Command') {
